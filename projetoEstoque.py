@@ -30,5 +30,7 @@ print(get_product_by_id(7))
 
 def get_product_by_name(name):
     for item in produtos_eletrodomesticos:
-        if item["nome"] == name:
-            return name 
+        if name in item["nome"]:
+            return item 
+        
+print(get_product_by_name("Geladeira"))
