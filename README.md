@@ -1,11 +1,11 @@
 # CRUD-Python
 
-git clone Faz o download do projeto/pasta
+`git clone` Faz o download do projeto/pasta
 
-git add . Faz alteração no projeto
+`git add .` Faz alteração no projeto
 
-git commit -m "mensagem" Escreve o que foi feito na alteração
+`git commit -m` "mensagem" Escreve o que foi feito na alteração
 
-git push Envia Pro github
+`git push` Envia Pro github
 
-git pull Atualiza o projeto
+`git pull` Atualiza o projeto
