@@ -20,17 +20,14 @@ def create_new_product(nome, quantidade_em_estoque, preco):
     produtos_eletrodomesticos.append(new_product)
     return "Produto criado com sucesso"
 
-print(produtos_eletrodomesticos)
 
 def get_product_by_id(id):
     for item in produtos_eletrodomesticos:
         if item["id"] == id:
-            return item   
-print(get_product_by_id(7))                    
+            return item                       
 
 def get_product_by_name(name):
     for item in produtos_eletrodomesticos:
         if name in item["nome"]:
             return item 
         
-print(get_product_by_name("Geladeira"))
