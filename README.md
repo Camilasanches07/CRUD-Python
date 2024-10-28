@@ -8,4 +8,4 @@
 
 `git push` Envia Pro github
 
-`git pull` Atualiza o projeto
+`git pull` Atualiza do github para o computador
