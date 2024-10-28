@@ -31,3 +31,4 @@ def get_product_by_name(name):
         if name in item["nome"]:
             return item 
         
+        
